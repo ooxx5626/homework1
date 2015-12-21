@@ -59,5 +59,6 @@ public class home {
 		com.addComponent(new chance("(a)是component的子類別\n(b)可以包含許多component\n(c)具備addComponent()的功能\n(d)收到client訊息後，會轉給所有它包含的component\n"));
 		paper.addComponent(com);
 		paper.print();
+		System.out.println("D0247705");
 	}
 }
